@@ -28,7 +28,7 @@ def SpeechToText(audio):
 
 print("Starting the Gradio Web UI")
 gr.Interface(
-    title = 'OpenAI Whisper implementation on Gradio Web UI', 
+    title = 'schaurom Fork - OpenAI Whisper implementation on Gradio Web UI', 
     fn=SpeechToText, 
     
     inputs=[
